@@ -53,34 +53,35 @@
   100%
     transform: scale(1.2)
 
+.banner-principal .tarjeta
+  background-position: left 50% !important
+.banner-principal__row .banner-principal__img
+  width: 500px !important
+// .titulo-principal.color-acento-contenido .titulo-principal__numero span
+//   color: black !important
+.banner-interno__titulo__icono i
+  color: $color-primario
+.barra-avance__boton--regresar span
+  color: $white !important
 .banner-principal
   .container.tarjeta
     background-image: url("../assets/curso/portada/fondo-banner-principal.png")
-    background-size: 100% 100% !important
+    background-size: cover
     background-position: center
-    min-height: 520px
+    background-repeat: no-repeat
+    min-height: auto
     @media (max-width: $bp-max-md)
-      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png") !important
+      background-size: contain
+      background-image: url("../assets/curso/portada/fondo-banner-principal-md.png")
     @media (max-width: $bp-max-xs)
-      background-image: url("../assets/curso/portada/fondo-banner-principal-sm.png") !important
-
+      background-size: cover
+      min-height: 550px
+      background-color: #69D7E5
 .banner-interno__fondo
   background-image: url("../assets/curso/portada/imgbaner.png") !important
-
-.banner-interno__titulo__icono
-    background-color: #000
-    color: #000 !important
-
-.banner-interno__titulo h1, .banner-interno__titulo h2, .banner-interno__titulo h3, .banner-interno__titulo h4, .banner-interno__titulo h5, .banner-interno__titulo h6
-  color: #000000
-.barra-avance__boton--regresar span
-  color: #FFFFFF !important
-
-.lista-ol--cuadro__vineta
-  color: #000000 !important
-  
-.banner-principal__row .banner-principal__img
-  width: 400px !important  
+  background-size: cover
+  background-position: center
+  background-repeat: no-repeat
 
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
   color: white !important
@@ -114,43 +115,47 @@ figcaption
   margin-right: 10px
   margin-left: -10px
 
-.bloque-texto-g.C01
-  background-color:#19538D
+.bloque-texto-g.color-primario
+  background-color:#D5AAFF
 
 .cajon.color-secundario
-  background-color: #D5F4F8
-.cajon.color-primario
   background-color: #DFEFFF
+.cajon.color-primario
+  background-color: #F1E2FF
 
 .cajon.C01
-  background-color: #FFEBBE
+  background-color: #DFEFFF
+
+.cajon.C001
+  background-color: #F1E2FF
 
 .cajon.C02
-  background-color: #D5F4F8
+  background-color: #DFEFFF
 
 .cajon.C03
-  background-color:#EFE8E8
-
+  background-color:#F9E7E7
+.cajon.C003
+  background-color:#FFEBBE
 .cajon.C04
-  background-color: #9ECFFF
+  background-color: #DDA2FF
 
 .cajon.C05
   background-color: #DFEFFF
 
 .tarjeta--C01
-  background-color: #DFEFFF
+  background-color: #F1E2FF
 
 .tarjeta--C02
   background-color: #D5F4F8
 
 .tarjeta--C03
-  background-color:#EFE8E8
+  background-color:#F9E7E7
 
 .tarjeta--C04
-  background-color: #D5F4F8
+  background-color: #DFEFFF
 
 .tarjeta--C05
-  background-color: #DEE4F0
+  background-color: #FFFDCE
 
 .BG01
   background-image: url("../assets/curso/temas/fondos/imgfondotarjeta.png")
@@ -223,7 +228,7 @@ figcaption
   overflow: hidden !important  
   &:hover    
     .crd_hover_txt--body   
-      background-color: #EFE8E8
+      background-color: #F9E7E7
       transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1) 
       transform: translateY(0)
       h5.t2
@@ -247,7 +252,7 @@ figcaption
   bottom: 0    
   transition: all 0.5s cubic-bezier(0.42, 0, 0.58, 1)
   transform: translateY(calc( 100% - 3.85rem ))
-  background-color: #EFE8E8
+  background-color: #F9E7E7
   h5.t2
       display: none
   h5.t1
@@ -350,7 +355,7 @@ thead
 //- Modulo acordions
 .acordion
   .acordion__activo
-    background-color: #D5F4F8
+    background-color: #DFEFFF
   .acordion__accion__btn--b
     background-color:#A10000
     border: none
@@ -419,9 +424,9 @@ ol.lista-ol--cuadro.lista-ol--separador, ol.lista-ol--cuadro.lista-ol
 .linea-tiempo-d.color-acento-botones.especial
   .linea-tiempo-d__item--selected
     .linea-tiempo-d__item__content
-      background-color: #D5F4F8 !important 
+      background-color: #DFEFFF !important 
     .tarjeta.tarjeta--gris
-      background-color: #4DD0E1
+      background-color: #9ECFFF
       span
         color: $black
   .linea-tiempo-d__item--selected .linea-tiempo-d__item__content__title

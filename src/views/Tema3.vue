@@ -64,7 +64,7 @@
         figure
           img(src='@/assets/curso/temas/tema3/img9.svg', alt='')
       .col.col-lg-9.col-12.order-lg-2.order-2
-        .cajon.cajon.C01.px-4.py-3
+        .cajon.cajon.C001.px-4.py-3
           p.mb-0(data-aos="fade-down") El dominio de estos elementos permite desarrollar programas estructurados, comprensibles y eficientes, facilitando la correcta implementación de algoritmos y el control del flujo de ejecución dentro de cualquier lenguaje de programación.
     
     Separador
@@ -81,7 +81,7 @@
                   img(src='@/assets/curso/temas/tema3/img10.svg', alt='')(style="width: 85%")
             h4.text-center Identificadores
             p.mb-0(data-aos="fade-down") Corresponden a los nombres asignados a variables, funciones, constantes u otros elementos del programa. Su correcta definición permite referenciar, almacenar y manipular datos de forma clara y organizada. Deben seguir reglas sintácticas del lenguaje (como iniciar con letra y evitar caracteres especiales) y utilizarse con criterios de legibilidad para facilitar la comprensión y el mantenimiento del código.
-          .col-xl.col-lg-6.tarjeta.cajon.C02.p-5
+          .col-xl.col-lg-6.tarjeta.cajon.C01.p-5
             .row.justify-content-center.mb-3
               .col-lg-5.col-4
                 figure(data-aos="fade-up")
@@ -114,7 +114,7 @@
           img(src='@/assets/curso/temas/tema3/img12.png', alt='')
     .row.justify-content-center.mb-0
       .col.col-lg-10.col-12
-        .cajon.cajon.C05.px-4.py-3
+        .cajon.cajon.C001.px-4.py-3
           p.mb-0(data-aos="fade-down") El manejo adecuado de identificadores y palabras reservadas permite construir programas más organizados, comprensibles y libres de ambigüedades, contribuyendo a una mejor calidad en el desarrollo de <em>software</em>.
     
     Separador
@@ -148,17 +148,17 @@
                 th(data-aos="fade-down")(style= "width: 35%") Ejemplo
             tbody
               tr
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Variables
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Espacios de memoria que almacenan datos que pueden cambiar durante la ejecución del programa.
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Una variable almacena la edad del usuario y cambia cuando se ingresa un nuevo valor.
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Variables
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Espacios de memoria que almacenan datos que pueden cambiar durante la ejecución del programa.
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Una variable almacena la edad del usuario y cambia cuando se ingresa un nuevo valor.
               tr
                 td(data-aos="fade-down") Constantes
                 td(data-aos="fade-down") Valores fijos que no se modifican a lo largo del proceso, garantizando estabilidad en ciertas operaciones.
                 td(data-aos="fade-down") El valor de IVA se define como constante para que no se modifique durante el cálculo.
               tr
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Contadores
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Variables utilizadas para llevar el registro del número de veces que ocurre un evento o se ejecuta una acción, generalmente incrementándose de forma secuencial.
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Un contador registra cuántos estudiantes han sido procesados en un ciclo.
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Contadores
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Variables utilizadas para llevar el registro del número de veces que ocurre un evento o se ejecuta una acción, generalmente incrementándose de forma secuencial.
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Un contador registra cuántos estudiantes han sido procesados en un ciclo.
               tr
                 td(data-aos="fade-down") Acumuladores
                 td(data-aos="fade-down") Variables que permiten sumar o integrar valores de manera progresiva, almacenando resultados parciales durante la ejecución del algoritmo.
@@ -177,7 +177,7 @@
       h2 3.3 Tipos de datos (enteros, reales, booleanos)
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-6.order-lg-1.order-2
-        .cajon.color-primario.p-4.mb-4
+        .cajon.color-secundario.p-4.mb-4
           p.mb-0 Los tipos de datos permiten clasificar la información que será utilizada dentro de un algoritmo o programa. Su función es definir la naturaleza de los valores que se almacenan y procesan, facilitando la realización de operaciones y garantizando la coherencia de los resultados obtenidos.
         p.mb-0 La identificación adecuada del tipo de dato es fundamental para representar correctamente la información y evitar errores durante el procesamiento. Cada tipo de dato posee características particulares que determinan la forma en que puede utilizarse dentro de una solución computacional.
       .col-lg-6.col-8.col-md-6.order-lg-2.order-1.mb-lg-0.mb-3
@@ -201,25 +201,25 @@
                 th(data-aos="fade-down")(style= "width: 35%") Ejemplo
             tbody
               tr
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Entero
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Representa números sin parte decimal.
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") 10, -5, 0
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Entero
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Representa números sin parte decimal.
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") 10, -5, 0
               tr
                 td(data-aos="fade-down") Real
                 td(data-aos="fade-down") Representa números que contienen parte decimal.
                 td(data-aos="fade-down") 3.14, -2.5
               tr
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Booleano
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Representa valores lógicos utilizados para evaluar condiciones.
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Verdadero, Falso
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Booleano
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Representa valores lógicos utilizados para evaluar condiciones.
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Verdadero, Falso
               tr
                 td(data-aos="fade-down") Carácter
                 td(data-aos="fade-down") Representa un único símbolo, letra o número.
                 td(data-aos="fade-down") A, 5, %
               tr
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Cadena
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Representa un conjunto de caracteres o texto.
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Hola mundo
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Cadena
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Representa un conjunto de caracteres o texto.
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Hola mundo
 
 
     
@@ -296,7 +296,7 @@
     #t_3_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 3.4 Operadores y jerarquía de operadores
     p.mb-4(data-aos="fade-down") Los operadores y la jerarquía de operadores constituyen elementos esenciales en la programación, ya que permiten realizar operaciones sobre los datos y definir el orden en que estas se ejecutan dentro de una expresión. Su correcta aplicación es fundamental para garantizar resultados precisos y evitar errores en la lógica de los algoritmos.
-    .bloque-texto-g.C01.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-down")
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-down")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema3/img20.png')})`}"
       )
@@ -325,7 +325,7 @@
     .row.justify-content-center.mb-0
       .col.col-lg-10.col-12
         p.mb-4(data-aos="fade-down") La jerarquía de operadores define el orden en que se evalúan las operaciones, priorizando primero las expresiones entre paréntesis, luego las operaciones aritméticas, seguidas de las relacionales y finalmente las lógicas; en este sentido, el uso de paréntesis permite modificar dicho orden, asegurando que ciertas operaciones se ejecuten primero según la necesidad del algoritmo.
-        .cajon.cajon.C05.px-4.py-3
+        .cajon.cajon.C001.px-4.py-3
           p.mb-0(data-aos="fade-down") El dominio de los operadores y su jerarquía permite construir expresiones claras, coherentes y libres de ambigüedades, facilitando el control del flujo lógico dentro de los programas y garantizando la correcta ejecución de las soluciones desarrolladas.
 </template>
 

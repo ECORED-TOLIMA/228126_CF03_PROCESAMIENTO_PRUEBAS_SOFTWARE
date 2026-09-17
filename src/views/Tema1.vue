@@ -133,7 +133,7 @@
     Separador
     #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 1.3 Análisis del problema
-    .bloque-texto-g.C01.bloque-texto-g--inverso.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-up")
+    .bloque-texto-g.color-primario.bloque-texto-g--inverso.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-up")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema1/img17.png')})`}"
       )
@@ -228,8 +228,8 @@
         figure
           img(src='@/assets/curso/temas/tema1/img34.png', alt='')
       .col.col-lg-8.col-12.order-lg-1.order-2
-        p.mb-4(data-aos="fade-down") Los tipos de algoritmos permiten clasificar las soluciones de acuerdo con su estructura, comportamiento y forma de ejecución, facilitando la selección de la estrategia más adecuada para resolver un problema. Esta clasificación contribuye a comprender cómo se organizan las instrucciones y cómo responde un algoritmo ante diferentes escenarios.
-        .cajon.color-primario.p-4.mb-0
+        p.mb-3(data-aos="fade-down") Los tipos de algoritmos permiten clasificar las soluciones de acuerdo con su estructura, comportamiento y forma de ejecución, facilitando la selección de la estrategia más adecuada para resolver un problema. Esta clasificación contribuye a comprender cómo se organizan las instrucciones y cómo responde un algoritmo ante diferentes escenarios.
+        .cajon.color-primario.p-3.mb-0
           p.mb-0(data-aos="fade-down") A diferencia de un enfoque único, los algoritmos pueden diseñarse bajo distintas formas según la lógica que se requiera implementar, lo que permite adaptarlos a problemas simples o complejos. Esta diversidad favorece la eficiencia, la claridad y la optimización de las soluciones en programación.
     p.mb-4(data-aos="fade-down") Estos tipos se agrupan en diferentes categorías que orientan su aplicación, entre ellos:
     .row.justify-content-center.mb-4.mb-lg-0
@@ -260,7 +260,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/img37.svg', alt='')
             .col.col-lg-10.col-12.order-lg-2.order-2
-              .cajon.cajon.C04.px-4.py-3
+              .cajon.cajon.C003.px-4.py-3
                 p.mb-0(data-aos="fade-down") Además de su clasificación básica, los algoritmos pueden analizarse desde diferentes enfoques que permiten comprender mejor su comportamiento, eficiencia y aplicabilidad en la resolución de problemas. Esta ampliación facilita seleccionar la estructura más adecuada según el contexto y los requerimientos planteados.
           p.mb-4(data-aos="fade-down") Desde el punto de vista de su comportamiento y diseño, los algoritmos también pueden clasificarse de la siguiente manera:
       .row.justify-content-center.align-items-center.px-3.mb-4(data-aos="flip-up")

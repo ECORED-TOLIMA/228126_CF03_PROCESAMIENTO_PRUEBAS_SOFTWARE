@@ -7,7 +7,7 @@
         span 5
       h1 Programación modular y pruebas de algoritmos
     p.mb-4(data-aos="fade-down") Constituyen una etapa clave en el desarrollo de soluciones, ya que permiten organizar el código en partes funcionales y verificar su correcto funcionamiento antes de su implementación definitiva. Este enfoque facilita la construcción de algoritmos más claros, mantenibles y reutilizables, mejorando la calidad del desarrollo.
-    .bloque-texto-g.C01.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-down")
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-down")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img1.png')})`}"
       )
@@ -73,25 +73,25 @@
                 th(data-aos="fade-down")(style= "width: 35%") Ejemplo
             tbody
               tr
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Módulo
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Unidad funcional que realiza una tarea específica dentro del programa.
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Un módulo calcula el promedio de notas de un estudiante.
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Módulo
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Unidad funcional que realiza una tarea específica dentro del programa.
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Un módulo calcula el promedio de notas de un estudiante.
               tr
                 td(data-aos="fade-down") Independencia funcional
                 td(data-aos="fade-down") Cada módulo debe cumplir una función definida sin depender excesivamente de otros.
                 td(data-aos="fade-down") El módulo de cálculo funciona sin depender del módulo de entrada de datos.
               tr
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Interfaz de comunicación
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Define cómo los módulos intercambian información mediante parámetros de entrada y salida.
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Un módulo recibe dos números y devuelve el resultado de la operación.
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Interfaz de comunicación
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Define cómo los módulos intercambian información mediante parámetros de entrada y salida.
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Un módulo recibe dos números y devuelve el resultado de la operación.
               tr
                 td(data-aos="fade-down") Reutilización
                 td(data-aos="fade-down") Permite utilizar módulos en diferentes programas o contextos sin necesidad de rediseñarlos.
                 td(data-aos="fade-down") El mismo módulo de validación se usa en varios programas.
               tr
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Mantenibilidad
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Facilita la modificación y corrección del código sin afectar todo el sistema.
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Se corrige un módulo sin modificar el resto del sistema.
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Mantenibilidad
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Facilita la modificación y corrección del código sin afectar todo el sistema.
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Se corrige un módulo sin modificar el resto del sistema.
     .row.justify-content-center.align-items-center.mb-0
       .col.col-lg-auto.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-3
         figure
@@ -121,19 +121,19 @@
         p.mb-4(data-aos="fade-down") Estas características permiten:
         ul.lista-ul--color.mt-4(data-aos="fade-down")
           li
-            i.fas.fa-cloud-arrow-down
+            i.fas.fa-file-code
             p.mb-0 Garantizar que cada módulo cumpla una función específica dentro del sistema.
           li
-            i.fas.fa-cloud-arrow-down
+            i.fas.fa-file-code
             p.mb-0 Facilitar la comprensión del programa mediante la separación de responsabilidades.
           li
-            i.fas.fa-cloud-arrow-down
+            i.fas.fa-file-code
             p.mb-0 Mejorar la organización del código y su estructura lógica.
           li
-            i.fas.fa-cloud-arrow-down
+            i.fas.fa-file-code
             p.mb-0 Permitir la reutilización de módulos en diferentes contextos o soluciones.
           li
-            i.fas.fa-cloud-arrow-down
+            i.fas.fa-file-code
             p.mb-0 Reducir errores al trabajar de forma independiente sobre cada módulo.
         p.mb-0(data-aos="fade-down") El proceso para definir las características funcionales de los módulos comprende las siguientes etapas:
       .col-lg-5.col-8.col-md-6.order-lg-1.order-1.mb-lg-0.mb-4
@@ -160,7 +160,7 @@
           img(src='@/assets/curso/temas/tema5/img9.png', alt='')
     .row.justify-content-center.mb-0
       .col.col-lg-10.col-12
-        .cajon.cajon.C05.px-4.py-3
+        .cajon.cajon.C001.px-4.py-3
           p.mb-0(data-aos="fade-down") La adecuada definición de las características funcionales de los módulos permite desarrollar soluciones más organizadas, eficientes y mantenibles, fortaleciendo la calidad del <em>software</em> y facilitando su evolución en distintos contextos de aplicación.
     
     Separador
@@ -172,7 +172,7 @@
           img(src='@/assets/curso/temas/tema5/img10.svg', alt='')
       .col.col-lg-11.col-12.order-lg-2.order-2
         p.mb-0(data-aos="fade-down") Los errores en algoritmos constituyen una de las principales causas de fallos en el desarrollo de soluciones informáticas, ya que afectan directamente la lógica, el funcionamiento y los resultados esperados. Identificarlos y corregirlos oportunamente es fundamental para garantizar la calidad, eficiencia y confiabilidad de los programas.
-    .bloque-texto-g.C01.bloque-texto-g--inverso.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-up")
+    .bloque-texto-g.color-primario.bloque-texto-g--inverso.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-up")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema5/img11.png')})`}"
       )
@@ -180,7 +180,7 @@
         p.mb-0(data-aos="fade-down") Durante el proceso de diseño y validación de algoritmos, es común que se presenten inconsistencias relacionadas con la lógica, el manejo de datos o la estructura de las instrucciones. Estos errores pueden originarse desde el análisis del problema o durante la implementación, lo que hace necesario aplicar estrategias de verificación como las pruebas de escritorio.
     .row.justify-content-center.mb-4
       .col.col-lg-10.col-12
-        .cajon.cajon.C05.px-4.py-3
+        .cajon.cajon.C001.px-4.py-3
           p.mb-0(data-aos="fade-down") A diferencia de los errores de programación específicos de un lenguaje, los errores en algoritmos están relacionados con la lógica de la solución, por lo que pueden detectarse incluso antes de codificar.
     
     .titulo.mb-4(data-aos="fade-left")
@@ -202,31 +202,31 @@
                 th(data-aos="fade-down")(style= "width: 35%") Ejemplo
             tbody
               tr
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Error lógico
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") El algoritmo se ejecuta, pero el resultado es incorrecto.
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Fórmula mal planteada.
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Error lógico
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") El algoritmo se ejecuta, pero el resultado es incorrecto.
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Fórmula mal planteada.
               tr
                 td(data-aos="fade-down") Error de sintaxis
                 td(data-aos="fade-down") Incorrecta escritura de instrucciones (en programación).
                 td(data-aos="fade-down") Falta de símbolos.
               tr
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Error de ejecución
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Ocurre durante la ejecución del algoritmo.
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") División por cero.
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Error de ejecución
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Ocurre durante la ejecución del algoritmo.
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") División por cero.
               tr
                 td(data-aos="fade-down") Error de datos
                 td(data-aos="fade-down") Datos de entrada incorrectos o no validados.
                 td(data-aos="fade-down") Ingresar texto en lugar de número.
               tr
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Error de flujo
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Mala organización del orden de instrucciones.
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Saltos incorrectos en el algoritmo.
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Error de flujo
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Mala organización del orden de instrucciones.
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Saltos incorrectos en el algoritmo.
     .row.justify-content-center.align-items-center.mb-4
       .col.col-lg-auto.col-6.col-md-4.order-lg-1.order-1.mb-lg-0.mb-3
         figure
           img(src='@/assets/curso/temas/tema5/img12.svg', alt='')
       .col.col-lg-9.col-12.order-lg-2.order-2
-        .cajon.cajon.C04.px-4.py-3
+        .cajon.cajon.C003.px-4.py-3
           p.mb-0(data-aos="fade-down") La identificación temprana de errores permite mejorar la calidad de los algoritmos y reducir problemas durante su implementación. Por esta razón, es importante analizar las causas que los originan, las consecuencias que generan y las estrategias que contribuyen a su prevención.
     p.mb-4(data-aos="fade-down") A continuación, se presenta un análisis sobre los errores más comunes que pueden surgir durante el diseño y desarrollo de algoritmos. Comprender sus causas y consecuencias resulta fundamental para mejorar la lógica de programación y la calidad del <em>software</em>. Asimismo, se proponen estrategias prácticas que contribuyen a prevenir fallos, optimizar el proceso de desarrollo y garantizar resultados correctos y confiables:
     .row.justify-content-center.align-items-center.mb-4
@@ -397,7 +397,7 @@
                   img(src='@/assets/curso/temas/tema5/img28.svg', alt='')(style="width: 85%")
             h4.text-center A. Definición de datos de prueba
             p.mb-5(data-aos="fade-down") Selección de valores de entrada que permitan evaluar diferentes escenarios del algoritmo, incluyendo casos normales, extremos y posibles errores.
-          .col-xl.col-lg-6.tarjeta.cajon.C01.p-5
+          .col-xl.col-lg-6.tarjeta.cajon.C003.p-5
             .row.justify-content-center.mb-3
               .col-lg-7.col-4
                 figure(data-aos="fade-up")

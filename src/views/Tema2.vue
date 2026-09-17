@@ -50,8 +50,8 @@
         figure
           img(src='@/assets/curso/temas/tema2/img5.svg', alt='')
       .col.col-lg-9.col-12.order-lg-2.order-2
-        .cajon.cajon.C01.px-4.py-3
-          p.mb-0(data-aos="fade-down") Este enfoque facilita la planificación de soluciones antes de su implementación, reduciendo errores y mejorando la calidad del resultado.
+        .cajon.cajon.C001.px-4.py-3
+          p.mb-2(data-aos="fade-down") Este enfoque facilita la planificación de soluciones antes de su implementación, reduciendo errores y mejorando la calidad del resultado.
     .row.justify-content-center.mb-4
       .col.col-12
         p.mb-0(data-aos="fade-down") A continuación, se presentan algunas metodologías clave utilizadas en el análisis y diseño de algoritmos:
@@ -69,25 +69,25 @@
                 th(data-aos="fade-down")(style= "width: 35%") Ejemplo
             tbody
               tr
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Descomposición del problema
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Consiste en dividir un problema complejo en partes más simples para facilitar su comprensión y solución.
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Un sistema de ventas se divide en registro de clientes, productos, pagos y facturación.
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Descomposición del problema
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Consiste en dividir un problema complejo en partes más simples para facilitar su comprensión y solución.
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Un sistema de ventas se divide en registro de clientes, productos, pagos y facturación.
               tr
                 td(data-aos="fade-down") Diseño descendente (<em>top-down</em>)
                 td(data-aos="fade-down") Inicia desde una visión general del problema y se descompone progresivamente en subprocesos más detallados.
                 td(data-aos="fade-down") Se define primero “calcular promedio final” y luego se descompone en ingreso de notas, cálculo y resultado.
               tr
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Diseño ascendente (<em>bottom-up</em>)
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Construye la solución a partir de componentes básicos que se integran para formar un sistema completo.
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Se crean funciones básicas (sumar, contar, promediar) y luego se integran en un sistema completo.
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Diseño ascendente (<em>bottom-up</em>)
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Construye la solución a partir de componentes básicos que se integran para formar un sistema completo.
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Se crean funciones básicas (sumar, contar, promediar) y luego se integran en un sistema completo.
               tr
                 td(data-aos="fade-down") Refinamiento progresivo
                 td(data-aos="fade-down") Mejora gradual del algoritmo, pasando de una idea general a una solución más detallada y precisa.
                 td(data-aos="fade-down") Un algoritmo inicia de forma general y se detalla paso a paso hasta incluir validaciones y excepciones.
               tr
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Abstracción
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Permite enfocarse en los aspectos relevantes del problema, omitiendo detalles innecesarios en las primeras etapas del diseño.
-                td(data-aos="fade-down")(style="background-color: #F0F8FF") Un cajero automático se diseña considerando acciones generales como retirar o consultar saldo, sin detalles internos.
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Abstracción
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Permite enfocarse en los aspectos relevantes del problema, omitiendo detalles innecesarios en las primeras etapas del diseño.
+                td(data-aos="fade-down")(style="background-color: #FBFAF2") Un cajero automático se diseña considerando acciones generales como retirar o consultar saldo, sin detalles internos.
               tr
                 td(data-aos="fade-down") Modularización
                 td(data-aos="fade-down") Organiza la solución en módulos independientes que facilitan la comprensión, mantenimiento y reutilización del algoritmo.
@@ -172,7 +172,7 @@
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 2.3 Representación de algoritmos con diagramas de flujo
     p.mb-4(data-aos="fade-down") La representación de algoritmos mediante diagramas de flujo constituye una técnica visual que permite describir de manera gráfica la secuencia de pasos necesarios para resolver un problema. Esta forma de representación facilita la comprensión de la lógica del algoritmo, al mostrar de manera clara la relación entre las diferentes operaciones, decisiones y procesos involucrados.
-    .bloque-texto-g.C01.bloque-texto-g--inverso.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-up")
+    .bloque-texto-g.color-primario.bloque-texto-g--inverso.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-up")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img14.png')})`}"
       )
@@ -218,7 +218,7 @@
             img(src='@/assets/curso/temas/tema2/img16_1.svg', alt='En la figura 1 se presentan los principales símbolos utilizados en los diagramas de flujo: terminal (inicio), proceso, entrada/salida, decisión y conectores. Los símbolos se encuentran unidos mediante líneas de flujo con dirección definida, presentando una secuencia que inicia en el terminal, continúa por un proceso y una entrada/salida, pasa por una decisión con las opciones Sí y No, y finaliza en los conectores identificados como A y B.')
     .row.justify-content-center.align-items-center.mb-0
       .col.col-lg-10.col-12
-        .cajon.cajon.C01.px-4.py-3
+        .cajon.cajon.C003.px-4.py-3
           p.mb-0(data-aos="fade-down") El uso adecuado de diagramas de flujo permite estructurar algoritmos de forma visual, ordenada y comprensible, contribuyendo a una mejor planificación de soluciones y facilitando su posterior implementación en un lenguaje de programación.
     
     Separador
@@ -281,7 +281,7 @@
         figure
           img(src='@/assets/curso/temas/tema2/img21.svg', alt='')
       .col.col-lg-8.col-12.order-lg-2.order-2
-        .cajon.cajon.C04.p-4
+        .cajon.cajon.C003.p-4
           p.mb-0 La adecuada selección y uso de estas herramientas permite fortalecer el proceso de construcción de algoritmos, asegurando soluciones más precisas, funcionales y alineadas con los requerimientos planteados, facilitando su transición hacia el desarrollo de <em>software</em>.
 </template>
 

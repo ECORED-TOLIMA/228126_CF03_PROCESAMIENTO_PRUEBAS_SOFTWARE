@@ -51,7 +51,7 @@
     Separador
     #t_4_1.titulo-segundo.color-acento-contenido(data-aos="fade-left")
       h2 4.1 Estructura secuencial
-    .bloque-texto-g.C01.bloque-texto-g--inverso.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-up")
+    .bloque-texto-g.color-primario.bloque-texto-g--inverso.p-3.p-sm-4.p-md-5.mb-4(data-aos="flip-up")
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema4/img7.png')})`}"
       )
@@ -69,7 +69,7 @@
                   img(src='@/assets/curso/temas/tema4/img8.svg', alt='')(style="width: 85%")
             h4.text-center Entrada de datos
             p.mb-5(data-aos="fade-down") Consiste en la recolección de la información necesaria para ejecutar el algoritmo, ya sea mediante lectura de datos o asignación inicial de valores.
-          .col-xl.col-lg-6.tarjeta.cajon.C01.p-5
+          .col-xl.col-lg-6.tarjeta.cajon.C003.p-5
             .row.justify-content-center.mb-3
               .col-lg-6.col-4
                 figure(data-aos="fade-up")
@@ -102,27 +102,27 @@
       .col.col-lg-4.col-12.col-lg.mb-4.mb-lg-0(data-aos="flip-up")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema4/img12.svg' alt='')
-          .tarjeta.tarjeta--C02(style= "width: 100%")
+          .tarjeta.tarjeta--C04(style= "width: 100%")
             .p-4(data-aos="fade-down")
               h5.text-center Evaluación de condiciones
               p.text-center Consiste en analizar una expresión lógica que puede resultar verdadera o falsa, determinando el camino que seguirá el algoritmo.
       .col.col-lg-4.col-12.col-lg.mb-4.mb-lg-0(data-aos="flip-up")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema4/img13.svg' alt='')
-          .tarjeta.tarjeta--C02(style= "width: 100%")
+          .tarjeta.tarjeta--C04(style= "width: 100%")
             .p-4(data-aos="fade-down")
               h5.text-center Toma de decisiones
               p.text-center Permite seleccionar entre una o varias alternativas de ejecución, utilizando estructuras como si... entonces... sino.
       .col.col-lg-4.col-12.mb-lg-0(data-aos="flip-up")
         .tarjeta-avatar
           img(src='@/assets/curso/temas/tema4/img14.svg' alt='')
-          .tarjeta.tarjeta--C02(style= "width: 100%")
+          .tarjeta.tarjeta--C04(style= "width: 100%")
             .p-4(data-aos="fade-down")
               h5.text-center Ejecución de bloques de instrucciones
               p.text-center Se realizan acciones específicas dependiendo del resultado de la condición evaluada, asegurando que el algoritmo actúe de acuerdo con la lógica definida.
     .row.justify-content-center.mb-0
       .col.col-lg-10.col-12
-        .cajon.cajon.C05.px-4.py-3
+        .cajon.cajon.C001.px-4.py-3
           p.mb-0(data-aos="fade-down") La correcta implementación de estructuras condicionales permite desarrollar algoritmos más inteligentes y adaptativos, facilitando la resolución de problemas que requieren análisis, comparación y toma de decisiones dentro del proceso de programación.
     
     Separador
@@ -155,7 +155,7 @@
           img(src='@/assets/curso/temas/tema4/img16.png', alt='')
     .row.justify-content-center.mb-0
       .col.col-lg-10.col-12
-        .cajon.cajon.C05.px-4.py-3
+        .cajon.cajon.C001.px-4.py-3
           p.mb-0(data-aos="fade-down") El uso adecuado de las estructuras de iteración permite desarrollar algoritmos más dinámicos y eficientes, optimizando el procesamiento de información y facilitando la solución de problemas que requieren repetición de tareas dentro de la programación.
     
     Separador
@@ -231,7 +231,7 @@
                 img(src='@/assets/curso/temas/tema4/img21.png', alt='')
     .row.justify-content-center.mb-0
       .col.col-lg-10.col-12
-        .cajon.cajon.C05.px-4.py-3
+        .cajon.cajon.C001.px-4.py-3
           p.mb-0(data-aos="fade-down") El uso adecuado de vectores y matrices permite estructurar la información de manera lógica y eficiente, facilitando la resolución de problemas que requieren el manejo de grandes volúmenes de datos dentro de la programación.
 </template>
 
