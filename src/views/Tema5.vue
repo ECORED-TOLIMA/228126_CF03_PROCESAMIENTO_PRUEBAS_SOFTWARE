@@ -297,7 +297,7 @@
       .col.col-lg-12
         figure
           .video
-            iframe(width="1337" height="752" src="https://www.youtube.com/embed/JgKuXg3d88U" title="Error lógico" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
+            iframe(width="1331" height="749" src="https://www.youtube.com/embed/jXKQt7m-m3c" title="Logical error" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
     
     Separador
     #t_5_4.titulo-segundo.color-acento-contenido(data-aos="fade-left")

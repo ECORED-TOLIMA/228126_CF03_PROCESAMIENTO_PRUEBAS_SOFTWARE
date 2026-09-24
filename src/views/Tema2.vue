@@ -203,9 +203,7 @@
       .col-lg-4.col-sm-4.col-5.order-lg-2.order-1.mb-lg-0.mb-4.d-none.d-lg-block
         figure
           img(src='@/assets/curso/temas/tema2/img15.png', alt='')
-    .row.justify-content-center.mb-4
-      .col.col-lg-10.col-12
-        p.mb-0(data-aos="fade-down") Para una mejor comprensión, se relaciona la estructura de un diagrama de flujo con los elementos mencionados:
+    p.mb-4(data-aos="fade-down") Para una mejor comprensión, se relaciona la estructura de un diagrama de flujo con los elementos mencionados:
     .row.justify-content-center.mb-4(data-aos="flip-up")
       .col-lg-12.col-12
         .titulo-sexto.color-primario
